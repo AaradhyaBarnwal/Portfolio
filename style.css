@@ -1,0 +1,195 @@
+body{
+    background-color: #1F3A2F;
+    margin: 15px;
+    padding: 15px;
+}
+
+.front-card{
+    position: absolute;
+    max-height: 90vh;
+    background-color: #F7F4EA;
+    padding: 2rem;
+    border: none;
+    color: #1F3A2F;
+    font-family: cursive;
+    border-radius: 15px;
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.15),
+        0 20px 40px rgba(107,163,104,0.15);
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin-bottom: 30px;
+}
+
+.head-card{
+    perspective: 1000px;
+    width: 350px;
+    height: 300px;
+}
+
+.card-inner{
+    transition: transform 0.8s ease-in-out;
+    transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.head-card:hover{
+    box-shadow:
+        0 12px 25px rgba(0,0,0,0.2),
+        0 25px 50px rgba(107,163,104,0.2);
+}
+   
+p{
+    color: #4A5C4E;
+}
+
+h2{
+    color: #2D6A4F;
+}
+
+.click-me{
+    background-color: #6BA368;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+    font-family: cursive;
+    height: 35px;
+    width: 70px;
+    font-size: medium;
+}
+
+.click-me:hover{
+    background-color: #5A8E57;
+}
+
+.click-me:active{
+    animation: big 0.2s ease;
+}
+
+.spann{
+    display: inline-block;
+}
+
+.spann:hover{
+    animation: span 5s ;
+}
+
+@keyframes span{
+    0%{
+        transform: rotate(0deg);
+    }
+    15%{
+        transform: rotate(90deg);
+    }
+    30%{
+        transform: rotate(120deg);
+    }
+}
+
+@keyframes big{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+
+.green{
+    border-radius: 15px;
+    height: 200px;
+    width: 150px;
+}
+
+.ptanhi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F4EA;
+    max-height: 90vh;
+    transition: transform 0.8s ease-in-out;
+    transform: rotateY(180deg);
+    border-radius: 25px;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.head-card:hover .card-inner{
+    transform: rotateY(180deg);
+}
+
+.fr-card{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    max-height: 90vh;
+    background-color: #F7F4EA;
+    padding: 2rem;
+    border: none;
+    color: #1F3A2F;
+    font-family: cursive;
+    border-radius: 15px;
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.15),
+        0 20px 40px rgba(107,163,104,0.15);
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nd-card{
+    perspective: 1000px;
+    width: 350px;
+    height: 300px;
+    margin-left: 750px;
+}
+
+.nd-card:hover .crd-inner{
+    transform: rotateY(180deg);
+}
+
+.patanhi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F4EA;
+    max-height: 90vh;
+    transition: transform 0.8s ease-in-out;
+    transform: rotateY(180deg);
+    border-radius: 25px;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
+.crd-inner{
+    transition: transform 0.8s ease-in-out;
+    transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cards{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
