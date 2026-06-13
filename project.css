@@ -1,3 +1,56 @@
 body{
-    
+    margin: 0;
+    background-color: rgb(236 255 235);
+  font-family: "Chewy", system-ui;
+  color: rgb(255, 255, 255);
+  padding-bottom: 60px;
+}
+
+.header{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: rgb(53, 153, 48);
+      font-weight: 900;
+
+}
+.projects-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 40px;
+}
+.projects-list a{
+    text-decoration:none;
+    color:inherit;
+}
+
+.pCard{
+    display: flex;
+    gap: 20px;
+    justify-content:space-between;
+
+    background-color: rgb(53, 153, 48);
+    padding: 35px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 15px 15px rgba(53, 153, 48, 0.24);
+
+    width: 700px;
+}
+img{
+    max-width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+.pD{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margins: 5px;
+
 }
