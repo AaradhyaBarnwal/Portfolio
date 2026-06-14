@@ -1,3 +1,6 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 body{
     margin: 0;
     background-color: rgb(236 255 235);
@@ -13,6 +16,7 @@ body{
     gap: 25px;
     background-color: rgb(53, 153, 48);
       font-weight: 900;
+      width: 100%;
 
 }
 .projects-list{
@@ -20,11 +24,15 @@ body{
     flex-direction: column;
     align-items: center;
 
+    padding: 20px;
     gap: 40px;
 }
 .projects-list a{
     text-decoration:none;
     color:inherit;
+    display: block;
+    width: 100%;
+    max-width: 700px;
 }
 
 .pCard{
@@ -32,18 +40,23 @@ body{
     gap: 20px;
     justify-content:space-between;
 
+    flex-direction: row;
+
+    margin: 0 auto;
     background-color: rgb(53, 153, 48);
-    padding: 35px;
+    padding: 25px;
 
     border-radius: 20px;
 
     box-shadow: 0 15px 15px rgba(53, 153, 48, 0.24);
 
-    width: 700px;
+    width: 100%;
 }
 img{
-    max-width: 300px;
+    max-width:300px;
+    width: 100%;
     height: auto;
+    
     border-radius: 15px;
 }
 .pD{
@@ -51,6 +64,24 @@ img{
     flex-direction: column;
     justify-content: center;
 
-    margins: 5px;
+    margin: 5px;
 
+}
+
+@media (max-width:700px) {
+
+    .pCard{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .rps{
+        flex-direction: column-reverse;
+    }
+    .pD{
+        align-items: center;
+        width: 300px;
+        max-width: 100%;
+    }
+    
 }
