@@ -68,6 +68,10 @@ img{
 
 }
 
+.rps{
+    background-color: #102a10 ;
+}
+
 @media (max-width:700px) {
 
     .pCard{
@@ -76,6 +80,9 @@ img{
 
     }
     .rps{
+        flex-direction: column-reverse;
+    }
+    .ps{
         flex-direction: column-reverse;
     }
     .pD{
