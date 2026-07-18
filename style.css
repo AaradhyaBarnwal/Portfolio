@@ -29,6 +29,7 @@ body{
     perspective: 1000px;
     width: 350px;
     height: 300px;
+    margin-bottom: 35px;
 }
 
 .card-inner{
@@ -199,3 +200,8 @@ h2{
     height: 350px;
     width: 300px;   
 }
+
+.aa{
+    color: #1F3A2F;
+}
+

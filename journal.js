@@ -4,7 +4,7 @@ let txt = `So this is an introductory paragraph of this page. In this page you c
 let speed = 50;
 let type = document.getElementById("text");
 let card = document.querySelector(".j");
-card.addEventListener("click",()=>{
+card.addEventListener("mouseover",()=>{
     writer();
 })
 function writer() {
