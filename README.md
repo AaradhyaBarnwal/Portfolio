@@ -18,7 +18,3 @@ This repo contains my portfolio website.
 <h4>This was one of the most fun websites I have ever built I really loved making . I struggled figured things out it was a very wonderful experience. There might be changes in this website as it is a evidence of my journey,breakdowns and memories.</h4>
 
 
-<h3>Changes</h3>
-<li>projects: added some latest made projects
-<li>guide: changed the css added some more instructions
-<li>journal: added animation and github
