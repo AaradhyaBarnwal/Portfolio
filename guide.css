@@ -7,26 +7,26 @@ body{
 header{
     align-self: center;
     justify-self: center;
-    background-color: #C5D89D;
-    color: #99bd60;
+    background-color: #a0c356;
+    color: #2f450c;
     font-family: cursive;
-    padding: 10px;
+    padding: 5px;
     border-radius: 15px;
 }
 
 header:hover{
-    color: #1F2A44;
+    text-shadow: 10px 10px 10px #99bd60;
 }
 
 .inst{
-    background-color:  #4E220F;
+    background-color:  #d3e7d97d;
     border-radius: 15px;
     padding: 25px;
     height: 400px;
     width: 300px;
     align-self: center;
     justify-content: center;
-    border: 15px solid white;
+    border: 5px dashed rgba(157, 225, 165, 0.585);
     margin: 15px;
 }
 
@@ -41,5 +41,5 @@ header:hover{
 }
 
 li::marker{
-    color: #201610;
+    color: #e3a782;
 }
